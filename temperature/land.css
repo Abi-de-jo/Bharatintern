@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.259);
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 70px;
+}
+
+body{
+
+   height: 99vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(temp.jpg);
+background-position: center;
+background-size: cover;
+align-content: center;
+
+    object-fit: cover;
+
+
+
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -160px;
+    
+  
+
+}
+
+ .title .tem-icon{
+
+    margin-top: -100px;
+    margin-left: -400px;
+    
+    
+    
+}
+
+h1{
+
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+
+ .celsius,.Fahrenheit,.kelvin{
+
+     height: 70px;
+     padding-left: 50px;
+ }
+
+ input{
+width: 250px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: -10px;
+    outline: none;
+    border-color: none;
+
+ }
+
+ .icon{
+    font-size: 30px;
+   font-weight: bold;
+   background-color: aqua;
+   margin: 10px;
+   padding: 9px;
+ 
+ padding-top: 9px;
+ padding-bottom: 13.5px;
+ margin-left: -15px;
+  border-radius: 0px 10px 14px 0px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+ }
+ .butto  {
+
+    padding-left: 140px;
+    padding-top: 10px;
+ 
+     
+
+ }
+ .butto button{
+    width: 90px;
+    height: 30px;
+  font-size: 18px;  
+ }
+ 
+ .butto button:hover{
+
+    background-color: rgb(216, 22, 22);
+ }
